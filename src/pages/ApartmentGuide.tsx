@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Building2, AlertTriangle, Eye, Wind } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -27,6 +26,37 @@ const ApartmentGuide = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           
+          {/* Planta Baixa do Apartamento */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
+            <div className="flex items-center mb-6">
+              <div className="bg-blue-100 p-3 rounded-full mr-4">
+                <Building2 className="w-6 h-6 text-blue-600" />
+              </div>
+              <h2 className="text-2xl font-bold text-warm-brown-800">Layout do Apartamento</h2>
+            </div>
+            
+            <div className="mb-6 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/7f0422b4-2b61-46ab-a6b4-ac8edf631c2a.png" 
+                alt="Planta baixa do apartamento do Residencial Magnólia" 
+                className="w-full h-64 md:h-80 object-contain bg-gray-50"
+              />
+              <div className="bg-blue-50 p-3 text-center">
+                <p className="text-blue-700 text-sm">Planta baixa oficial do apartamento - Residencial Magnólia</p>
+              </div>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-lg">
+              <h3 className="font-semibold text-blue-800 mb-3">📐 Entendendo o Layout:</h3>
+              <ul className="space-y-2 text-blue-700">
+                <li>• Ambiente integrado: sala, cozinha e área de serviço conectadas</li>
+                <li>• 2 quartos com boa ventilação natural</li>
+                <li>• Banheiro social otimizado</li>
+                <li>• Área de serviço com espaço para lavadora</li>
+              </ul>
+            </div>
+          </div>
+
           {/* Paredes Estruturais */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-8">
             <div className="flex items-center mb-6">
