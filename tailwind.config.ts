@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,31 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom colors for the portal
+				'warm-brown': {
+					50: '#fdf8f6',
+					100: '#f2e8e5',
+					200: '#eaddd7',
+					300: '#e0cec7',
+					400: '#d2bab0',
+					500: '#bfa094',
+					600: '#a18072',
+					700: '#977669',
+					800: '#846358',
+					900: '#43302b',
+				},
+				'sage-green': {
+					50: '#f6f7f5',
+					100: '#e3e7de',
+					200: '#c7d2bd',
+					300: '#a4b494',
+					400: '#849575',
+					500: '#6b7c5d',
+					600: '#546249',
+					700: '#434f3b',
+					800: '#364032',
+					900: '#2d352a',
 				}
 			},
 			borderRadius: {
@@ -84,11 +110,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						transform: 'scale(0.95)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'scale(1)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.3s ease-out',
+				'scale-in': 'scale-in 0.2s ease-out'
 			}
 		}
 	},
