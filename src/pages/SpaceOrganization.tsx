@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -31,12 +30,12 @@ const SpaceOrganization = () => {
           {/* Planta Baixa do Apartamento */}
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
-              src="/lovable-uploads/7f0422b4-2b61-46ab-a6b4-ac8edf631c2a.png" 
-              alt="Planta baixa do apartamento do Residencial Magnólia" 
-              className="w-full h-64 md:h-80 object-contain bg-white"
+              src="/lovable-uploads/2739f78f-ac39-496c-a1f8-ae27fb6c4c36.png" 
+              alt="Planta baixa detalhada do apartamento do Residencial Magnólia" 
+              className="w-full h-96 md:h-[500px] object-contain bg-white"
             />
             <div className="bg-white p-4 text-center">
-              <p className="text-sage-green-700 font-medium">Planta baixa do apartamento - Layout dos ambientes</p>
+              <p className="text-sage-green-700 font-medium">Planta baixa do apartamento com dimensões dos ambientes</p>
             </div>
           </div>
 

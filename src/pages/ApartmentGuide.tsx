@@ -1,3 +1,4 @@
+
 import { ArrowLeft, Building2, AlertTriangle, Eye, Wind } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -37,22 +38,26 @@ const ApartmentGuide = () => {
             
             <div className="mb-6 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/7f0422b4-2b61-46ab-a6b4-ac8edf631c2a.png" 
-                alt="Planta baixa do apartamento do Residencial Magnólia" 
-                className="w-full h-64 md:h-80 object-contain bg-gray-50"
+                src="/lovable-uploads/2739f78f-ac39-496c-a1f8-ae27fb6c4c36.png" 
+                alt="Planta baixa detalhada do apartamento do Residencial Magnólia" 
+                className="w-full h-96 md:h-[500px] object-contain bg-gray-50"
               />
               <div className="bg-blue-50 p-3 text-center">
-                <p className="text-blue-700 text-sm">Planta baixa oficial do apartamento - Residencial Magnólia</p>
+                <p className="text-blue-700 text-sm">Planta baixa oficial do apartamento - Residencial Magnólia com dimensões</p>
               </div>
             </div>
 
             <div className="bg-blue-50 p-6 rounded-lg">
               <h3 className="font-semibold text-blue-800 mb-3">📐 Entendendo o Layout:</h3>
               <ul className="space-y-2 text-blue-700">
-                <li>• Ambiente integrado: sala, cozinha e área de serviço conectadas</li>
-                <li>• 2 quartos com boa ventilação natural</li>
-                <li>• Banheiro social otimizado</li>
-                <li>• Área de serviço com espaço para lavadora</li>
+                <li>• <strong>Sala TV:</strong> 6,12 m² - Área de estar principal</li>
+                <li>• <strong>Sala Jantar:</strong> 6,58 m² - Espaço para refeições</li>
+                <li>• <strong>Cozinha:</strong> 6,56 m² - Área gourmet integrada</li>
+                <li>• <strong>Quarto 1:</strong> 6,76 m² - Dormitório principal</li>
+                <li>• <strong>Quarto 2:</strong> 8,07 m² - Dormitório maior</li>
+                <li>• <strong>Banheiro:</strong> 3,31 m² - Banheiro social</li>
+                <li>• <strong>Lavanderia:</strong> 2,29 m² - Área de serviço</li>
+                <li>• <strong>Sacada:</strong> 1,91 m² - Área externa</li>
               </ul>
             </div>
           </div>
