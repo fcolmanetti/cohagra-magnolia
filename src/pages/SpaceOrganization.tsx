@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Layout, Sofa, ChefHat, Bed, Bath, Shirt, Lightbulb } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -28,13 +27,16 @@ const SpaceOrganization = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-6xl mx-auto">
           
-          {/* Hero Image */}
+          {/* Hero Image - Apartamento Real */}
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1200&h=400&fit=crop" 
-              alt="Sala de estar organizada" 
+              src="/lovable-uploads/9f33b359-88b0-4d6c-ae10-715c5d0afcea.png" 
+              alt="Sala integrada do Residencial Magnólia" 
               className="w-full h-64 md:h-80 object-cover"
             />
+            <div className="bg-white p-4 text-center">
+              <p className="text-sage-green-700 font-medium">Apartamento do Residencial Magnólia - Layout integrado otimizado</p>
+            </div>
           </div>
 
           <Tabs defaultValue="sala" className="w-full">
@@ -54,6 +56,18 @@ const SpaceOrganization = () => {
                     <Sofa className="w-6 h-6 text-warm-brown-600" />
                   </div>
                   <h2 className="text-2xl font-bold text-warm-brown-800">Sala de Estar</h2>
+                </div>
+                
+                {/* Imagem da sala integrada */}
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/c0397237-44b4-47d9-9a9c-0c07160210c4.png" 
+                    alt="Sala de estar do Residencial Magnólia" 
+                    className="w-full h-48 md:h-64 object-cover"
+                  />
+                  <div className="bg-warm-brown-50 p-3 text-center">
+                    <p className="text-warm-brown-700 text-sm">Exemplo de organização da sala com móveis compactos e funcionais</p>
+                  </div>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
@@ -106,6 +120,18 @@ const SpaceOrganization = () => {
                     <ChefHat className="w-6 h-6 text-orange-600" />
                   </div>
                   <h2 className="text-2xl font-bold text-warm-brown-800">Cozinha</h2>
+                </div>
+                
+                {/* Imagem da cozinha */}
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/32edfc5d-a0fb-4f08-a9fc-2cd9f12a8a9e.png" 
+                    alt="Cozinha do Residencial Magnólia" 
+                    className="w-full h-48 md:h-64 object-cover"
+                  />
+                  <div className="bg-orange-50 p-3 text-center">
+                    <p className="text-orange-700 text-sm">Layout da cozinha com móveis planejados e organização vertical</p>
+                  </div>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">
@@ -304,6 +330,18 @@ const SpaceOrganization = () => {
                     <Shirt className="w-6 h-6 text-indigo-600" />
                   </div>
                   <h2 className="text-2xl font-bold text-warm-brown-800">Lavanderia/Varanda</h2>
+                </div>
+                
+                {/* Imagem da lavanderia */}
+                <div className="mb-8 rounded-lg overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/2c282db3-dc17-49e8-a3e5-cbeb2469b6db.png" 
+                    alt="Área da lavanderia do Residencial Magnólia" 
+                    className="w-full h-48 md:h-64 object-cover"
+                  />
+                  <div className="bg-indigo-50 p-3 text-center">
+                    <p className="text-indigo-700 text-sm">Área de serviço com lavadora e organização eficiente</p>
+                  </div>
                 </div>
                 
                 <div className="grid md:grid-cols-2 gap-8 mb-6">

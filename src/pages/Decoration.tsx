@@ -1,4 +1,3 @@
-
 import { ArrowLeft, Palette, Home, Lightbulb, Sofa, Camera } from "lucide-react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
@@ -27,13 +26,16 @@ const Decoration = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           
-          {/* Hero Image */}
+          {/* Hero Image - Apartamento Real */}
           <div className="mb-12 rounded-2xl overflow-hidden shadow-lg">
             <img 
-              src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&h=400&fit=crop" 
-              alt="Apartamento bem decorado" 
+              src="/lovable-uploads/32d2332d-6295-4993-a6aa-b6369125e448.png" 
+              alt="Cozinha planejada do Residencial Magnólia" 
               className="w-full h-64 md:h-80 object-cover"
             />
+            <div className="bg-white p-4 text-center">
+              <p className="text-blue-700 font-medium">Cozinha do Residencial Magnólia - Exemplo de móveis adequados e bem planejados</p>
+            </div>
           </div>
 
           {/* Móveis Adequados */}
@@ -95,6 +97,18 @@ const Decoration = () => {
                 <Camera className="w-6 h-6 text-purple-600" />
               </div>
               <h2 className="text-2xl font-bold text-warm-brown-800">Decoração e Conforto Visual</h2>
+            </div>
+            
+            {/* Imagem da sala decorada */}
+            <div className="mb-8 rounded-lg overflow-hidden">
+              <img 
+                src="/lovable-uploads/c0397237-44b4-47d9-9a9c-0c07160210c4.png" 
+                alt="Sala decorada do Residencial Magnólia" 
+                className="w-full h-48 md:h-64 object-cover"
+              />
+              <div className="bg-purple-50 p-3 text-center">
+                <p className="text-purple-700 text-sm">Sala bem decorada com cores neutras e detalhes em madeira para aconchego</p>
+              </div>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
