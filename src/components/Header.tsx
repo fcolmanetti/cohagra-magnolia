@@ -18,10 +18,13 @@ const Header = () => {
           </Link>
           
           <div className="flex items-center space-x-4">
-            <button className="flex items-center space-x-2 px-4 py-2 bg-sage-green-100 text-sage-green-700 rounded-lg hover:bg-sage-green-200 transition-colors">
+            <Link 
+              to="/contatos" 
+              className="flex items-center space-x-2 px-4 py-2 bg-sage-green-100 text-sage-green-700 rounded-lg hover:bg-sage-green-200 transition-colors"
+            >
               <Phone className="w-4 h-4" />
               <span className="hidden sm:inline">Contatos</span>
-            </button>
+            </Link>
             <button className="flex items-center space-x-2 px-4 py-2 bg-warm-brown-100 text-warm-brown-700 rounded-lg hover:bg-warm-brown-200 transition-colors">
               <QrCode className="w-4 h-4" />
               <span className="hidden sm:inline">QR Code</span>
