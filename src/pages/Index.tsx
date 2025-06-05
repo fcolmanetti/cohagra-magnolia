@@ -11,6 +11,7 @@ import {
   Phone,
   Building2
 } from "lucide-react";
+import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import WelcomeHero from "../components/WelcomeHero";
 import SectionCard from "../components/SectionCard";
@@ -108,12 +109,15 @@ const Index = () => {
             Precisa de Ajuda?
           </h3>
           <p className="text-sage-green-600 mb-6">
-            Entre em contato com a COHAGRA ou participe das oficinas comunitárias
+            Entre em contato com a COHAGRA ou use nosso assistente virtual para tirar dúvidas
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="px-6 py-3 bg-warm-brown-500 text-white rounded-lg hover:bg-warm-brown-600 transition-colors">
+            <Link 
+              to="/contatos"
+              className="px-6 py-3 bg-warm-brown-500 text-white rounded-lg hover:bg-warm-brown-600 transition-colors"
+            >
               Contatos Úteis
-            </button>
+            </Link>
             <button className="px-6 py-3 bg-sage-green-500 text-white rounded-lg hover:bg-sage-green-600 transition-colors">
               Vídeos e QR Code
             </button>
